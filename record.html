@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Запис</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="record.css">
+
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <header class="header">
+    <div class="container"> 
+      <div class="header-top">
+        <img width="80px" height="80px" src="images/logo2.png" alt="" class="header-top-logo">
+
+        <nav class="nav">
+          <a href="index.html" class="nav-link">Домашня сторінка</a>
+          <a href="about.html" class="nav-link">Про нас</a>
+          <a href="services.html" class="nav-link">Послуги</a>
+          <a href="record.html" class="nav-link active">Запис</a>
+          <a href="product.html" class="nav-link">Товари</a>
+
+          <div class="header-top-phone">
+            <a href="tel: +380982621975">+38(098)2621975</a>
+          </div>
+          <div>
+            <a href="#" class="header-top-social-link">
+              <img src="images/whatsapp.png" alt="">
+            </a>
+  
+            <a href="https://www.instagram.com/beauty_edit__khm?igsh=MXU1c200MmRjcDVneA==" class="header-top-social-link" target="_blank">
+              <img src="images/instagram.png" alt="">
+            </a>
+  
+            <a href="https://www.facebook.com/zagadka.gazun" class="header-top-social-link" target="_blank">
+              <img src="images/facebook.png" alt="">
+            </a>
+          </div>
+        </nav>
+        
+        
+      </div>
+    </div>
+  </header>
+
+
+<div class="container-form">
+    <h2>Запис на процедуру</h2>
+    
+    <div class="contact-form">
+        <form action="https://api.web3forms.com/submit" method="post">
+            <input type="hidden" name="access_key" value="9c1e16ed-8631-4938-a420-4ec0f8672819">
+            <label for="subject">Послуга:</label>
+            <select id="subject" name="subject" required>
+                <option value="manicure">Маникюр</option>
+                <option value="pedicure">Педикюр</option>
+                <option value="haircut">Стрижка</option>
+                <option value="massage">Масаж</option>
+            </select>
+    
+            <label for="name">Ім'я:</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            
+            <label for="confirm-checkbox">
+            <input type="checkbox" id="confirm-checkbox" name="confirm-checkbox" value="yes">
+            Підписатися на розсилку</label>
+
+            <label for="message">Додаткова інформація (алгергії, інші відомості про здоров'я, побажання):</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Надіслати</button>
+        </form>
+    </div> 
+    
+    <br>
+    <h2>Де ми знаходимось:</h2>
+    <div class="contact-info">
+      <p>Адреса: Зарічанська 10/4, м.Хмельниццький, Хмельницька область, Україна</p>
+      <p>Email: n221222122005@gmail.com</p>
+      <p><br>Телефон:</p>
+      <a href="tel: +380657581265">+380 65 758 1265</a>  <br>
+      <a href="tel: +380981253646">+380 98 125 3646</a><br>
+      <a href="tel: +380674865231">+380 67 486 5231</a><br>
+
+  </div>
+</div>
+
+</body>
+
+<footer class="footer">
+  <div class="container-footer"> 
+    <div class="footer-top">
+      
+      <div class="header-top-phone">
+        <a href="tel: +380982621975">+38(098)2621975</a>
+      </div>
+
+      <div class="header-top-social">
+        <a href="#" class="header-top-social-link">
+          <img src="images/whatsapp.png" alt="">
+        </a>
+
+        <a href="https://www.instagram.com/beauty_edit__khm?igsh=MXU1c200MmRjcDVneA==" class="header-top-social-link" target="_blank">
+          <img src="images/instagram.png" alt="">
+        </a>
+
+        <a href="https://www.facebook.com/zagadka.gazun" class="header-top-social-link" target="_blank">
+          <img src="images/facebook.png" alt="">
+        </a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+</html>

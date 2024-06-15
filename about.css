@@ -1,0 +1,113 @@
+.body-about{
+  background: url('images/employees.jpg') fixed center top; 
+  background-size: cover; 
+}
+.main{
+  background-position: center;
+  background-size: cover;
+  }
+
+  .title{
+    padding-top: 100px;
+  }
+  .subtitle{
+    color: white;
+    font-size: 55px;
+    font-weight: 600px;
+    line-height: 75px;
+    padding-left: 150px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.281);
+  }
+
+
+.about-container {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  justify-content: center; 
+  gap: 20px; 
+}
+
+.about-card {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-sizing: border-box;
+  backdrop-filter: blur(10px);
+  background-color: rgba(0, 0, 0, 0.281);
+  display: flex;
+  align-items: center;
+  /*overflow: hidden; */
+  width: calc(32% - 20px);
+  margin-right: 20px; 
+  flex-direction: column;
+  max-width: 300px;
+}
+
+.about-container  div:hover {
+  transform: scale(1.05)
+}
+.about-card img {
+  width: 100%;
+  border-radius: 50%; 
+  max-width: 200px;
+  max-height: 200px; 
+  object-fit: cover; 
+  height: auto;
+}
+
+.about-card h2 {
+  margin-top: 10px;
+  font-size: 1.5em;
+  color: white;
+}
+.about-title {
+  color: #fff;
+  background-size: 45px;
+  font-weight: 600;
+  padding-top: 100px;
+  padding-left: 300px;
+
+  background-color:  rgba(227, 139, 117, 0.6);
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 40px 70px;
+}
+
+    .about-card p {
+      color: white;
+    }
+
+    .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 60vh; 
+    }
+    video {
+      max-width: 100%; 
+      height: auto;
+    }
+
+
+    @media screen and (max-width: 768px) {
+      .about-container {
+        justify-content: center; 
+      }
+      .about-card {
+        width: calc(100% - 40px); 
+        max-width: 300px; 
+        margin-right: 0; 
+      }
+      video {
+        max-width: 80%; 
+      }
+    }
+
+

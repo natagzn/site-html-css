@@ -1,0 +1,165 @@
+
+.main{
+  background-image: url(images/backgroundimage.png);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+  }
+  .main-title {
+    color: white;
+    background-size: 45px;
+    font-weight: 700;
+    padding-top: 230px;
+    padding-left: 150px;
+  }
+  .main-subtitle{
+    color: white;
+    font-size: 25px;
+    font-weight: 600px;
+    line-height: 45px;
+    padding-left: 150px;
+  }
+
+  .wait-title {
+    font-weight: 500;
+    font-size: 35px;
+    text-align: center;
+    padding-top: 140px;
+    padding-bottom: 40px;
+  }
+  .wait-content{
+    display: flex;
+    justify-content: center;
+  }
+
+  .wait-content p {
+    padding-bottom: 34px;
+  }
+  .wait-image img {
+    width: 400px;
+    max-width: 100%; 
+    padding-right: 10px;
+    height: auto; 
+  }
+
+  .wait-text img {
+    height: 23px;
+    padding-right: 25px;
+  }
+.wait-text li {
+  list-style: none;
+  font-size: 20px;
+  font-weight: 400px;
+  display: flex;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+  .cooperation-title {
+    margin-top: 180px;
+    margin-bottom: 120px;
+
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;  
+}
+.cooperation-content {
+  display: flex;
+  justify-content: center;
+}
+
+.cooperation-side {
+  margin-right: 105px;
+}
+.cooperation-side:last-child{
+  margin-right: 0;
+}
+.cooperation-side img {
+  height: 45px;
+  margin-right: 50px;
+}
+.cooperation-side div {
+  display: flex;
+  margin-bottom: 50px;
+}
+.cooperation-side p {
+  font-size: 20px;
+}
+
+
+.grow {
+  padding: 140px 0px;
+  background-image: url(images/perfection.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.grow-item{
+  background-color:  rgba(227, 139, 117, 0.6);
+  width: 60%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 60px 80px;
+}
+.grow-item h1 {
+  color: white;
+  font-size: 30px;
+  padding-bottom: 60px;
+}
+.grow-item p {
+  color: white;
+  font-size: 25px;
+}
+
+
+@media screen and (max-width: 768px) {
+  .wait-image img {
+    max-width: 80%; 
+  }
+  .cooperation-content {
+    flex-direction: column; 
+    margin-right: 0; 
+  }
+.grow {
+padding: auto;
+}
+.grow-item{
+width: 80%;
+padding: auto;
+}
+.grow-item h1 {
+font-size: auto;
+padding-bottom: auto;
+}
+.grow-item p {
+font-size: auto;
+}
+}
+
+.cooperation-item:hover {
+  transform: scale(1.1); 
+  animation: bounce 0.5s infinite; 
+}
+
+@keyframes bounce {
+  0%, 100% {
+      transform: translateY(0);
+  }
+  50% {
+      transform: translateY(-5px); 
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
